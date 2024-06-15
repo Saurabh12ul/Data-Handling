@@ -1,0 +1,34 @@
+u=open("usernamer.txt","w")
+u.write("Saurabh")
+u.close()
+p=open("passwordr.txt","w")
+p.write("1234")
+p.close()
+e=open("emalr.txt","w")
+e.write("S@123")
+e.close()
+UserName=input("Enter your username: ")
+if(UserName==x):
+    print("Enter your password:")
+    password=input("Enter your password:")
+    if(password==y):
+        print("Login Successfully.")
+    else:
+        print("Incorrect Password.Try Again")
+        password=input("Again Enter Your Password")
+        if(password==y):
+             print("Login Successfully")
+        else:
+            print("Enter your number to login.")
+            Phone=input("Enter your phone number: ")
+            if(Phone==z):
+                pirnt("Login Successfully")
+            else:
+                print("Enter your mail to login.")
+                Email=input("Enter your email to login: ")
+                if(Email==w):
+                    print("Login Successfully")
+                else:
+                    print("Sorry.Pls Factory Reset")
+else:
+    print("Check UserName")
